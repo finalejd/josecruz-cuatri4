@@ -10,26 +10,24 @@ Este componente es la raíz de la aplicación y define la estructura general de 
 */
 export default function App() {
 
-/*
-Renderiza dos componentes dentro del contenedor principal. Estos son los componentes Btc2 y Post importados anteriormente.
-*/
+  /*
+  Renderiza dos componentes dentro del contenedor principal. Estos son los componentes Btc2 y Post importados anteriormente.
+  */
   return (
 
     <div className="App">
-      <Btc2/>
-
-     <Post/> 
-
+      <Btc2 />
+      <Post />
     </div>
   );
-        
+
 }
 
 /*
 const styles = { ... }: Declara un objeto JavaScript llamado styles, que contiene propiedades para estilos de texto. 
 */
 const styles = {
-  textProps : {
+  textProps: {
     alignItems: 'center',
     justifyContent: 'center',
   }
