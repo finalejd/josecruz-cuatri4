@@ -10,8 +10,7 @@ Se define la URL de la API de CoinDesk que se utilizará para obtener los datos 
 */
 const url = "https://api.coindesk.com/v1/bpi/currentprice.json"
 
-
-function App() {
+export default function Post() {
   const[data, SetData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -139,4 +138,4 @@ const styles = {
 */
 
 //con esto, la aplicacion App, se exporta para que este componente pueda ser utilzado en otro componente on el app.js
-export default App;
+
